@@ -20,6 +20,7 @@ const Header = `
                     <ul class="navigation clearfix">
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="services.html">Servicios</a></li>
+                        <li><a href="products.html">Productos</a></li>
                         <li><a href="about.html">Sobre nosotros</a></li>
                         <li><a href="contact.html">Contacto</a></li>
                     </ul>
@@ -61,10 +62,11 @@ const Footer = `
     <div class="footer-top clearfix">
         <div class="line-shape" style="background-image: url(assets/images/shape/shape-11.png);"></div>
         <div class="text pull-left">
-            <h2>Please <span>Call Us</span> to Take an Extraordinary Service</h2>
+            <h2> <span>Llámanos</span> para tener una mejor experiencia</h2>
         </div>
         <div class="support-box pull-right">
-            <a href="tel:7732253523"><i class="fas fa-phone"></i>(773) 225-3523</a>
+            <a href="#"><i class="fas fa-phone"></i><span
+            class="data_phone"></span></a>
         </div>
     </div>
     <div class="widget-section">
@@ -74,10 +76,10 @@ const Footer = `
                     <figure class="footer-logo"><a href="index.html"><img
                                 src="assets/images/footer-logo.png" alt=""></a></figure>
                     <div class="text">
-                        <p>Nostrud exertation ullamco labor nisi aliquip commodo duis.</p>
+                        <p></p>
                     </div>
                     <div class="schedule-box">
-                        <h6>Open Hours:</h6>
+                        <h6>Horarío</h6>
                         <ul class="list clearfix">
                             <span class="data_shedule"></span>
                         </ul>
