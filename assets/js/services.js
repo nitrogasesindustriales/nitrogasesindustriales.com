@@ -1,35 +1,36 @@
 const SERVICES  = [
     {
         name:'PRUEBA HIDROSTÁTICAS CERTIFICADAS ',
-        image:'test',
+        image:'test.svg',
     },
     {
         name:'VENTA DE REGULADORES ACETILENO CO2 OXIGENO NITROGENO OXIGENO HELIO ',
-        image:'sales',
+        image:'sales.svg',
     },
     {
         name:'MANTENIMIENTO GENERAL REGULADORES ',
-        image:'maintenance',
+        image:'maintenance.svg',
     },
     {
         name:'VENTA MANGUERA ALTA PRESIÓN  CON ACOPLES ',
-        image:'sales_2',
+        image:'sales_2.svg',
     },
     {
+        
         name:'VENTA EQUIPOS DE OXICORTE',
-        image:'sales_3',
+        image:'Screenshot_5.png',
     },
     {
         name:'VENTA CILINDROS DE NITRÓGENO OXÍGENO ARGÓN CO2 ACETILENO  DE TODAS LAS CAPACIDADES',
-        image:'sales_4',
+        image:'sales_4.svg',
     },
     {
         name:'VENTA DE VALVULAS DE NITROGENO ARGON OXIGENO ACETILENO CO2 ',
-        image:'sales_5',
+        image:'sales_5.svg',
     },
     {
         name:'VENTA DE PORTACILINDROS',
-        image:'sales_6',
+        image:'sales_6.svg',
     },
 ]
 {/* <a href="https://storyset.com/shopping">Shopping illustrations by Storyset</a> */}
@@ -44,7 +45,7 @@ $(document).ready(function() {
             <div class="inner-box">
                 <figure class="image-box">
                 <a href="https://storyset.com/shopping">
-                <img src="assets/svg/${i.image}.svg"
+                <img src="assets/svg/${i.image}"
                         alt=""> </a>
                         </figure>
                 <div class="lower-content">
