@@ -1,6 +1,7 @@
 
 
 const Header = `
+
 <header class="main-header">
 <div class="header-lower">
     <div class="shape" style="background-image: url(assets/images/shape/shape-1.png);"></div>
@@ -27,7 +28,6 @@ const Header = `
                 </div>
             </nav>
         </div>
-
     </div>
 </div>
 <div class="sticky-header">
@@ -39,16 +39,27 @@ const Header = `
     </div>
 </div>
 </header>
-<div class="mobile-menu">
-<div class="menu-backdrop"></div>
-<div class="close-btn"><i class="fas fa-times"></i></div>
 
+<div class="mobile-menu">
+<div class="close-btn"><i class="fas fa-times"></i></div>
 <nav class="menu-box">
-    <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a>
+    <div class="nav-logo"><a href="index.html"><img src="assets/images/footer-logo.png" alt="" title=""></a>
     </div>
-    <div class="menu-outer"></div>
+    <div class="contact-info">
+        <h4>Menú</h4>
+        <ul class="clearfix">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="products.html">Productos</a></li>
+            <li><a href="about.html">Sobre nosotros</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </div>
 </nav>
 </div>
+
+
+
 
 `
 const Footer = `    

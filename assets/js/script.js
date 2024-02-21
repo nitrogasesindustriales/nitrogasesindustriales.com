@@ -8,6 +8,12 @@
 			$('.loader-wrap').delay(1000).fadeOut(500);
 		}
 	}
+	$('body').on('click', '.mobile-nav-toggler', function() {
+		$('body').addClass('mobile-menu-visible');
+	});
+	$('body').on('click', '.mobile-menu .menu-backdrop,.mobile-menu .close-btn', function() {
+		$('body').removeClass('mobile-menu-visible');
+	});
 
 	if ($(".preloader-close").length) {
         $(".preloader-close").on("click", function(){
@@ -59,14 +65,16 @@
 			$(this).prev('.megamenu').slideToggle(900);
 		});
 		//Menu Toggle Btn
-		$('.mobile-nav-toggler').on('click', function() {
-			$('body').addClass('mobile-menu-visible');
-		});
+		// $('.mobile-nav-toggler').on('click', function() {
+		// 	$('body').addClass('mobile-menu-visible');
+		// });
+		// $('body').on('click', '.mobile-nav-toggler', function() {
+		// 	alert('hola');
+		// 	$('body').addClass('mobile-menu-visible');
+		// });
 
 		//Menu Toggle Btn
-		$('.mobile-menu .menu-backdrop,.mobile-menu .close-btn').on('click', function() {
-			$('body').removeClass('mobile-menu-visible');
-		});
+		
 	}
 
 
