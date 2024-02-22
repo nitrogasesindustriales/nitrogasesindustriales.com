@@ -163,9 +163,10 @@ const Footer = `
 
 const data = {
     phone: `322 2439710`,
+    phone_2: `601 3614397`,
     shedule: `Lunes a viernes de 7 AM a 6pm y sábado de 8 AM a 12 del dia`,
     email: `contacto@nitrogasesindustriales.com`,
-    address: `Carrera 81b #9 26`
+    address: `Carrera 81b #9 26 - BOGOTA DC`
 }
 
 
@@ -173,6 +174,7 @@ $(document).ready(function() {
     $('.component_header').html(Header)
     $('.component_footer').html(Footer)
     $('.data_phone').html(data.phone)
+    $('.data_phone_2').html(data.phone_2)
     $('.data_email').html(data.email)
     $('.data_address').html(data.address)
     $('.data_shedule').html(data.shedule)

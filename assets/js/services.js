@@ -22,7 +22,7 @@ const SERVICES  = [
     },
     {
         name:'VENTA CILINDROS DE NITRÓGENO OXÍGENO ARGÓN CO2 ACETILENO  DE TODAS LAS CAPACIDADES',
-        image:'sales_4.svg',
+        image:'sales_4.jpg',
     },
     {
         name:'VENTA DE VALVULAS DE NITROGENO ARGON OXIGENO ACETILENO CO2 ',
