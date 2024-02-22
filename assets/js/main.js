@@ -107,6 +107,8 @@ const Footer = `
                             <li><i class="fal fa-map-marker-alt"></i><span class="data_address"></span></li>
                             <li><i class="fal fa-phone"></i>Llámanos: <a href="tel:3336660001"><span
                                         class="data_phone"></span></a></li>
+                            <li><i class="fal fa-phone"></i>Llámanos: <a href="tel:3336660001"><span
+                                        class="data_phone_2"></span></a></li>
                             <li><i class="fal fa-envelope-open-text"></i><a
                                     href="mailto:contacto@nitrogasesindustriales.com"><span
                                         class="data_email"></span></a></li>
