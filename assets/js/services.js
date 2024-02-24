@@ -1,10 +1,10 @@
 const SERVICES  = [
     {
-        name:'PRUEBA HIDROSTÁTICAS CERTIFICADAS ',
+        name:'PRUEBAS HIDROSTÁTICAS CERTIFICADAS ',
         image:'test.svg',
     },
     {
-        name:'VENTA DE REGULADORES ACETILENO CO2 OXIGENO NITROGENO OXIGENO HELIO ',
+        name:'venta de reguladores de Acetileno co2 oxigeno argon nitrógeno helio',
         image:'sales.svg',
     },
     {
