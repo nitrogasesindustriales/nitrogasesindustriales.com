@@ -76,7 +76,7 @@ const Footer = `
             <h2> <span>Llámanos</span> para tener una mejor experiencia</h2>
         </div>
         <div class="support-box pull-right">
-            <a href="#"><i class="fas fa-phone"></i><span
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=573222439710"><i class="fas fa-phone"></i><span
             class="data_phone"></span></a>
         </div>
     </div>
