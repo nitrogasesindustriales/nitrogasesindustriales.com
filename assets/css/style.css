@@ -66,8 +66,25 @@
 ====================================================================
 
  ***/
-
-
+.customers{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 8px;
+}
+.logo_customer{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2px;
+}
+.testimonial-content>p{
+ font-size: 0.6rem;
+}
+.testimonial-content{
+  margin-bottom: 25px;
+}
 body {
   font-size:15px;
   color:#898c8f;
