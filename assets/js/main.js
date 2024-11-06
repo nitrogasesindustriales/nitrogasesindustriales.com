@@ -168,7 +168,7 @@ const data = {
     phone_2: `601 3614397`,
     shedule: `Lunes a viernes de 7 AM a 6pm y sábado de 8 AM a 12 del dia`,
     email: `contacto@nitrogasesindustriales.com`,
-    address: `Calle 10 # 81A - 20 - BOGOTA DC`
+    address: `Calle 10 81a 20 - Barrio Valladolid BOGOTA DC`
 }
 
 
