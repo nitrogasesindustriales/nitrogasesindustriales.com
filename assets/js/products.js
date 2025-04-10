@@ -1,44 +1,69 @@
 const SERVICES  = [
     {
-        name:'NITROGENO',
-        image:'NITROGENO',
+        name:'MANGUERA ALTA PRESION ACOPLES_',
+        image:'MANGUERA ALTA PRESION ACOPLES_',
     },
     {
-        name:'ARGON',
-        image:'ARGON',
+        name:'MANTENIMIENTO REGULADORES Y EQUIPOS_',
+        image:'MANTENIMIENTO REGULADORES Y EQUIPOS_',
     },
     {
-        name:'OXIGENO INDUSTRIAL',
-        image:'OXIGENO INDUSTRIAL',
+        name:'PORTACILINDROS',
+        image:'PORTACILINDROS',
     },
     {
-        name:'AGAMIX',
-        image:'AGAMIX',
+        name:'RECARGA ACETILENO',
+        image:'RECARGA ACETILENO',
     },
     {
-        name:'MEZCLAS ESPECIALES',
-        image:'MEZCLAS ESPECIALES',
+        name:'RECARGA AIRE COMPRIMIDO',
+        image:'RECARGA AIRE COMPRIMIDO',
     },
     {
-        name:'CO2',
-        image:'CO2',
+        name:'RECARGA ARGON',
+        image:'RECARGA ARGON',
     },
     {
-        name:'GAS COMPRIMIDO',
-        image:'GAS COMPRIMIDO',
+        name:'RECARGA CO2 EXTINTORES_',
+        image:'RECARGA CO2 EXTINTORES_',
     },
     {
-        name:'ACETILENO',
-        image:'ACETILENO',
+        name:'RECARGA DIOXIDO DE CARBONO',
+        image:'RECARGA DIOXIDO DE CARBONO',
     },
     {
-        name:'HELIO',
-        image:'HELIO',
+        name:'RECARGA GASES ESPECIALES_',
+        image:'RECARGA GASES ESPECIALES_',
     },
     {
-        name:'RECARGA CO2 EXTINTOR',
-        image:'RECARGA CO2 EXTINTOR',
+        name:'RECARGA HELIO',
+        image:'RECARGA HELIO',
     },
+    {
+        name:'RECARGA MEZCLA',
+        image:'RECARGA MEZCLA',
+    },
+    {
+        name:'RECARGA OXIGENO INDUSTRIAL',
+        image:'RECARGA OXIGENO INDUSTRIAL',
+    },
+    {
+        name:'VENTA CILINDROS NITRÓGENO ARGON ACETILENO CO2 OXÍGENO MEZCLA',
+        image:'VENTA CILINDROS NITRÓGENO ARGON ACETILENO CO2 OXÍGENO MEZCLA',
+    },
+    {
+        name:'VENTA EQUIPOS OXICORTE_',
+        image:'VENTA EQUIPOS OXICORTE_',
+    },
+    {
+        name:'VENTA REGULADOR NITRÓGENO ACETILENO CO2 ARGON OXIGENO ACETILENO HELIO',
+        image:'VENTA REGULADOR NITRÓGENO ACETILENO CO2 ARGON OXIGENO ACETILENO HELIO',
+    },
+    {
+        name:'VENTA VALVULAS NITRÓGENO ARGON CO2 OXIGENO ACETILENO',
+        image:'VENTA VALVULAS NITRÓGENO ARGON CO2 OXIGENO ACETILENO',
+    },
+    
 ]
 {/* <a href="https://storyset.com/shopping">Shopping illustrations by Storyset</a> */}
 $(document).ready(function() {
@@ -50,7 +75,7 @@ $(document).ready(function() {
         <div class="shop-block-one wow fadeInUp animated" data-wow-delay="00ms"
             data-wow-duration="1500m">
             <div class="inner-box">
-                <figure class="image-box"><img src="assets/products/${i.image}.jpg"
+                <figure class="image-box"><img src="assets/products/${i.image}.avif"
                         alt=""></figure>
                 <div class="lower-content">
                     <div class="shape"
